@@ -12,7 +12,7 @@ def main():
     args = parser.parse_args()
 
     ssh_config = paramiko.SSHConfig()
-    with open(os.path.expanduser('/root/.ssh/config')) as f:
+    with open(os.path.expanduser('~/.ssh/config')) as f:
         ssh_config.parse(f)
     ssh_params = ssh_config.lookup(args.environ)
 
