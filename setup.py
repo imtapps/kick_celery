@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='kick_celery',
-    version='0.0.7',
+    version='0.0.8',
     author='imtapps',
     description='Kicks Celery',
     install_requires=['paramiko'],
